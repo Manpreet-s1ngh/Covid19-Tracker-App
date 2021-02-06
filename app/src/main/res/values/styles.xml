@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="heading">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_margin">@dimen/_4sdp</item>
+        <item name="android:fontFamily">@font/ubantu_medium</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
+    <style name="counter">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_marginTop">@dimen/_5sdp</item>
+        <item name="android:fontFamily">@font/ubantu_regular</item>
+        <item name="android:textSize">@dimen/_17ssp</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+
+    <style name="increment">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/_20sdp</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="fontFamily">@font/ubantu_medium</item>
+
+    </style>
+
+    <style name="card">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_marginTop">@dimen/_3sdp</item>
+        <item name="android:layout_marginRight">@dimen/_7sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_7sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_2sdp</item>
+
+
+    </style>
+
+    <style name="cardRight">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_marginTop">@dimen/_3sdp</item>
+        <item name="android:layout_marginRight">@dimen/_7sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_2sdp</item>
+
+    </style>
+
+</resources>

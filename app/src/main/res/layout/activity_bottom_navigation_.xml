@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BottomNavigation_Activity"
+    android:background="@color/colorWhite">
+
+
+<LinearLayout
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_45sdp"
+    android:orientation="horizontal"
+    android:background="@drawable/curvy_nav_bar">
+
+    <LinearLayout
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/selector2"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_4sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="@dimen/_27sdp"
+            android:src="@drawable/india_round"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="India"
+            android:gravity="center"
+            android:textSize="@dimen/_10ssp"
+            android:fontFamily="@font/ubantu_medium"
+            android:textColor="@color/colorBlack"
+            android:includeFontPadding="false"/>
+
+
+    </LinearLayout>
+
+    <!--Global Card-->
+    <LinearLayout
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/selector2"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_4sdp">
+        <ImageView
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="@dimen/_27sdp"
+            android:src="@drawable/global"></ImageView>
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="World"
+            android:gravity="center"
+            android:textSize="@dimen/_10ssp"
+            android:fontFamily="@font/ubantu_medium"
+            android:includeFontPadding="false"/>
+
+    </LinearLayout>
+
+
+  <!--Third Part-->
+    <LinearLayout
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/selector2"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_4sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="@dimen/_27sdp"
+            android:src="@drawable/anti_corona"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="India"
+            android:gravity="center"
+            android:textSize="@dimen/_10ssp"
+
+            android:fontFamily="@font/ubantu_medium"
+            android:textColor="@color/colorBlack"
+            android:includeFontPadding="false"/>
+    </LinearLayout>
+
+
+    <!--Fourth Part-->
+    <LinearLayout
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/selector2"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_4sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="@dimen/_27sdp"
+            android:src="@drawable/help_corona"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="India"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_10ssp"
+            android:fontFamily="@font/ubantu_medium"
+            android:includeFontPadding="false"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+   <!-- <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/green"
+        app:menu="@menu/menu2" />
+-->
+
+</RelativeLayout>
