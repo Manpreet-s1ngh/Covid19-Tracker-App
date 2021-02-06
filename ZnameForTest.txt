@@ -1,1 +1,4 @@
 just for checking the git
+
+
+Adding few lines to checking the diff bw pull and fetch...just ok all
